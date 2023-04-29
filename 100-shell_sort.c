@@ -20,7 +20,7 @@ void swap(int *x, int *y)
  * @array: the array to sort
  * @size: the size of the array
  **/
-void shell_sort(int *array, size_t size)
+void shell_sort_Ciura(int *array, size_t size)
 {
 	size_t i, j, gap = 1;
 
@@ -51,7 +51,7 @@ void shell_sort(int *array, size_t size)
  * @array: the array to sort
  * @size: the size of the array
  **/
-void shell_sort_Ciura(int *array, size_t size)
+void shell_sort(int *array, size_t size)
 {
 	/* Define Ciura gap sequence */
 	size_t gaps[] = {701, 301, 132, 57, 23, 10, 4, 1};
